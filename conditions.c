@@ -16,9 +16,11 @@ int main (void) {
     printf("Grade: ");
     scanf("%d", &grade);
 
-    if (grade >= 50) printf("Passed \n");
+    if (grade >= 75) printf("Passed \n");
 
-    else printf("avarage \n");
+    else if (grade >= 50 && grade < 75) printf("avarage \n");
+
+    else printf("failed \n");
 
     return 0;
 }

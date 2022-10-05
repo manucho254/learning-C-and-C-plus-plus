@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main (){
+int main (void){
     
     printf("hello world"); // output data in the terminal
     return 0;

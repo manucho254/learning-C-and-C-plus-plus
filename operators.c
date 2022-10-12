@@ -46,6 +46,9 @@ int main (void) {
     if (number == 50 || secondNumber == 20) printf("one value is correct \n");
 
     if ( !secondNumber) printf("Not second number");
-    
+
+    if (! (number > 30)) printf("not number");
+
     return 0;
+
 }

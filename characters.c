@@ -13,5 +13,21 @@ int main (void) {
     scanf("%s", &string);
     printf("string: %s \n", string);
 
+    //strings
+    
+    char email[20];
+    char password[20];
+    char confirmPassword[20];
+
+    printf("Enter email: ");
+    scanf("%s", &email);
+
+    printf("Enter password: ");
+    scanf("%s", &password);
+
+    printf("Enter confirm password: ");
+    scanf("%s", &confirmPassword);
+    
+
     return 0;
 }

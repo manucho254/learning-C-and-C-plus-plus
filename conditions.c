@@ -12,7 +12,8 @@
 int main (void) {
 
     int grade = 0;
-
+    int height = 0;
+    
     printf("Grade: ");
     scanf("%d", &grade);
 
@@ -21,6 +22,9 @@ int main (void) {
     else if (grade >= 50 && grade < 75) printf("avarage \n");
 
     else printf("failed \n");
+
+
+
 
     return 0;
 }

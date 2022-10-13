@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int checkCase ();
+void checkCase ();
 
 int main (void) {
 
@@ -26,7 +26,7 @@ int main (void) {
 }
 
 
-int checkCase () {
+void checkCase () {
 
     char character = 'B';
 
@@ -42,5 +42,6 @@ int checkCase () {
         default:
            printf("A\n");
     }
+
     return 0;
 }

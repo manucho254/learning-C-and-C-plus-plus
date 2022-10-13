@@ -4,7 +4,7 @@ for loops
 
 #include <stdio.h>
 
-int evaluateFunc();
+void evaluateFunc();
 
 int main (void) {
 
@@ -27,7 +27,7 @@ int main (void) {
 }
 
 
-int evaluateFunc() {
+void evaluateFunc() {
 
     double initial = 0, step = 0, stop = 0;
 

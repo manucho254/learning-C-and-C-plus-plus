@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int oddOrEven(void) {
+void oddOrEven() {
     // check if number is even or odd
     int value = 0;
 
@@ -16,7 +16,7 @@ int oddOrEven(void) {
     }
 }
 
-int calculations (void) {
+void calculations () {
     int x = 11, y = 3;
 
     int divide = x / y;

@@ -7,7 +7,7 @@ While loops
 
 
 // function initialization
-int guessGame (void);
+void guessGame ();
 int getAverage ();
 
 
@@ -52,7 +52,7 @@ int main(void) {
 }
 
 
-int guessGame(void) {
+void guessGame() {
 
     int guess = 20;
     int number = 0;

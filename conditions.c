@@ -23,9 +23,6 @@ int main (void) {
 
     else printf("failed \n");
 
-
-
-
     return 0;
 }
 

@@ -16,7 +16,7 @@ grades[4] = 5;
 
 */
 
-int getAverage(int array[]);
+void getAverage(int array[]);
 
 int main (void) {
 
@@ -42,7 +42,7 @@ int main (void) {
     return 0;
 }
 
-int getAverage (int array[5]) {
+void getAverage (int array[5]) {
 
     array[2] = array[2] + 8; // changing array values
 

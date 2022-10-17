@@ -10,12 +10,16 @@ int *p; - Shows the declaration of a pointer.
 
 void refrenceValue();
 void addOne();
+void pointerVal();
+void addThree(int *a, int *b, int *c);
 
 int main(void) {
 
     int a[]  = {2, 4, 9, 1, 3, 4};
 
     printf("memory address: %p\n", a);
+
+    pointerVal();
 
     refrenceValue();
 
@@ -24,6 +28,12 @@ int main(void) {
     addOne(&val);
 
     printf("%d", val);
+
+    int val1 = 1, val2 = 2, val3 = 3;
+
+    addThree(&val1, &val2, &val3);
+
+    printf("\n val1 = %d \n val2 = %d \n val3 = %d \n", val1, val2, val3);
 
     return 0;
 }
@@ -61,6 +71,25 @@ void refrenceValue () {
 
 void addOne(int *a) {
     *a = *a + 1;
+}
+
+
+void pointerVal () {
+    int *pk;
+    int cb = 200;
+    pk = &cb;
+    
+    printf("%p \n", &cb);
+
+    // printing out the value of a pointer
+
+    printf("%d  \n\n", *pk); // derefrencing the pointer
+}
+
+void addThree(int *a, int *b, int *c) {
+    *a = *a + 1;
+    *b = *b + 1;
+    *c = *c + 1;
 }
 
 
